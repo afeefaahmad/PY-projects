@@ -28,13 +28,12 @@
        Option2: DEPOSIT AMOUNT
            1. User input acc_number
            2. if account exist using next() method then
-           3. try: 
-                 User input amount
+           3. try User input amount
                  call deposit(amount) method 
                              Inside method:
                                    if amount > 0 then balance =+ amount and record_transaction
                                    
-              except ValueError:
+              except ValueError
             4. else account don't exist
       
               
