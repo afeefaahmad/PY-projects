@@ -1,4 +1,6 @@
-🧩🧩BANK APPLICATION  ***VIEW IN EDITING MODE*******
+***VIEW IN EDITING MODE*******
+
+🧩🧩BANK APPLICATION  
 
 🧨CONCEPTS:
 
