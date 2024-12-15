@@ -33,10 +33,38 @@
            3. try User input amount
                  call deposit(amount) method 
                              Inside method:
-                                   if amount > 0 then balance =+ amount and record_transaction
+                                   if amount > 0 then balance += amount and record_transaction
+                                    else enter positive value 
                                    
               except ValueError
             4. else account don't exist
+
+            
+       Option3: WITHDRAW AMOUNT
+           1. User input acc_number
+           2. if account exist using next() method then
+           3. try User input amount
+                 call withdraw(amount) method 
+                             Inside method:
+                                   if 0<amount<balance then balance -= amount and record_transaction
+                                   else insufficient balance
+                                   
+              except ValueError
+            4. else account don't exist
+
+
+       Option4: TRANSFER
+           1. User input sourceAccount num and targetAccount number as src_number and target_number
+           2. if source and target exist using next() method then
+           3. try User input amount
+                 call transfer(amount) method 
+                             Inside method:
+                                   if 0<amount<balance then balance -= amount and record_transaction
+                                   else insufficient balance
+                                   
+              except ValueError
+            4. else account don't exist
+      
       
               
                   
