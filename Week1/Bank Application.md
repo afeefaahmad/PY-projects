@@ -64,6 +64,24 @@
                                    
               except ValueError
             4. else account don't exist
+
+       Option5: SHOW TRANSACTIONS
+           1. User input acc_number
+           2. if account exist using next() method then
+           3. call account.show_transactions()
+                        print allTransactions      
+              except ValueError
+           4. else account don't exist
+
+       Option6: SAVE AND NEXT
+           1. call save_accounts(accounts)
+           2. if account exist using next() method then
+           3. call account.show_transactions()
+                        print allTransactions      
+              except ValueError
+           4. else account don't exist
+
+      
       
       
               
